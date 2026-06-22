@@ -10,7 +10,7 @@
 
 ## Project Status
 
-현재 장바구니와 Checkout 흐름을 구현하고 있으며, 견적·협의, 계약·전자서명과 이의제기 영역은 DB 구조 및 상태 흐름을 설계하고 있습니다. 아래 내용은 구현 중인 기능과 설계·검토 중인 기능을 구분해 기록합니다.
+현재 장바구니와 Checkout 연동을 바탕으로 판매 회사별 주문 생성 흐름을 구현하고 있으며, 견적·협의, 계약·전자서명과 이의제기 영역은 DB 구조 및 상태 흐름을 설계하고 있습니다. 아래 내용은 구현 중인 기능과 설계·검토 중인 기능을 구분해 기록합니다.
 
 ## Development Log
 
@@ -24,6 +24,7 @@
 | [2026-06-19](<daily/2026-06-19 장바구니와 Checkout.md>) | 회사별 배송비 그룹화와 JPA N+1 문제 개선 | JPA, N+1, @EntityGraph, 배송비 | [블로그](https://min-soon.tistory.com/88) |
 | [2026-06-20](<daily/2026-06-20 Checkout 흐름 정리.md>)  |  장바구니와 Checkout의 검증 책임 설계                     | Spring, CartItem, Checkout, 검증 책임 | [블로그](https://min-soon.tistory.com/90) |
 | [2026-06-21](<daily/2026-06-21 주문 주체와 로컬 DB.md>) | B2B 주문 판매 주체 재설계와 로컬 DB 분리 | JPA, Company, Docker, MySQL | [블로그](https://min-soon.tistory.com/91) |
+| [2026-06-22](<daily/2026-06-22 Hibernate 스키마 동기화.md>) | 주문 생성 연동과 Hibernate 스키마 동기화 오류 해결 | Hibernate, ddl-auto, 외래키, MySQL | [블로그](https://min-soon.tistory.com/92) |
 
 프로젝트 진행에 따라 구현 내용과 설계 판단을 계속 추가하고 있습니다.
 
