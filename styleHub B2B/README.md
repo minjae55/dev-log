@@ -22,9 +22,10 @@
 | [2026-06-17](<daily/2026-06-17 JPA 지연 로딩.md>)      | JPA 객체 연관관계와 지연 로딩 이해 | JPA, LAZY, 연관관계 | [블로그](https://min-soon.tistory.com/86) |
 | [2026-06-18](<daily/2026-06-18 장바구니 연동.md>)        | 장바구니 API 연동           | DTO, Axios, 인증 | [블로그](https://min-soon.tistory.com/87) |
 | [2026-06-19](<daily/2026-06-19 장바구니와 Checkout.md>) | 회사별 배송비 그룹화와 JPA N+1 문제 개선 | JPA, N+1, @EntityGraph, 배송비 | [블로그](https://min-soon.tistory.com/88) |
-| [2026-06-20](<daily/2026-06-20 Checkout 흐름 정리.md>)  |  장바구니와 Checkout의 검증 책임 설계                     | Spring, CartItem, Checkout, 검증 책임 | [블로그](https://min-soon.tistory.com/90) |
+| [2026-06-20](<daily/2026-06-20 Checkout 흐름 정리.md>)  |  장바구니와 Checkout의 검증 책임 설계                 | Spring, CartItem, Checkout, 검증 책임 | [블로그](https://min-soon.tistory.com/90) |
 | [2026-06-21](<daily/2026-06-21 주문 주체와 로컬 DB.md>) | B2B 주문 판매 주체 재설계와 로컬 DB 분리 | JPA, Company, Docker, MySQL | [블로그](https://min-soon.tistory.com/91) |
 | [2026-06-22](<daily/2026-06-22 Hibernate 스키마 동기화.md>) | 주문 생성 연동과 Hibernate 스키마 동기화 오류 해결 | Hibernate, ddl-auto, 외래키, MySQL | [블로그](https://min-soon.tistory.com/92) |
+| [2026-06-23](<daily/2026-06-23 ApiResponse 응답 구조.md>) | ApiResponse 적용 후 응답 처리 흐름 정리 | ApiResponse, Axios, Routing, 배송비 | [블로그](https://min-soon.tistory.com/93) |
 
 프로젝트 진행에 따라 구현 내용과 설계 판단을 계속 추가하고 있습니다.
 
@@ -79,3 +80,4 @@
 | **Database** | MySQL, Redis |
 | **Frontend** | React, TypeScript, Vite, Axios, Zustand |
 | **Build & Test** | Gradle, JUnit 5, Spring Security Test |
+
