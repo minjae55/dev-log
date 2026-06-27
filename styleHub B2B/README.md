@@ -28,6 +28,7 @@
 | [2026-06-23](<daily/2026-06-23 ApiResponse 응답 구조.md>) | ApiResponse 적용 후 응답 처리 흐름 정리 | ApiResponse, Axios, Routing, 배송비 | [블로그](https://min-soon.tistory.com/93) |
 | [2026-06-24](<daily/2026-06-24 Checkout DTO 분리.md>) | 장바구니 기반 Checkout과 주문 기반 Checkout 분리 | Checkout, DTO, CartItem, Order | [블로그](https://min-soon.tistory.com/94) |
 | [2026-06-26](<daily/2026-06-26 Checkout 검증 응답 구조.md>) | Checkout 검증 실패 응답 구조와 Cart 사전 안내 책임 정리 | Checkout, Validation, DTO, UX | 작성 예정 |
+| [2026-06-27](<daily/2026-06-27 주문 목록과 다건 결제.md>) | 주문 목록 요약 조회와 판매사별 주문의 다건 결제 흐름 설계 | Order, OrderItem, 다건 결제, 조회 최적화 | 작성 예정 |
 
 프로젝트 진행에 따라 구현 내용과 설계 판단을 계속 추가하고 있습니다.
 
