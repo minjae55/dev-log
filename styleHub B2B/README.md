@@ -32,6 +32,7 @@
 | [2026-06-28](<daily/2026-06-28 주문 목록 상태 분리.md>) | 주문 목록의 로딩·오류·빈 데이터 상태 분리 | React, Empty State, Error Handling, Mock Data | [블로그](https://min-soon.tistory.com/97) |
 | [2026-06-29](<daily/2026-06-29 주문 상태 이력과 진행 현황.md>) | 주문 상태 변경 이력 저장과 전체 진행 타임라인 연결 | OrderLog, 상태 이력, DTO, Timeline | [블로그](https://min-soon.tistory.com/98) |
 | [2026-06-30](<daily/2026-06-30 주문 상품 준비와 출고 처리.md>) | 담당자별 주문 상품 준비와 주문 전체 출고 흐름 연결 | OrderItem, 권한 분리, 상태 전이, Shipment | [블로그](https://min-soon.tistory.com/100) |
+| [2026-07-01](<daily/2026-07-01 견적서와 계약서 초안 흐름.md>) | 소싱 요청 기반 견적 생성과 계약서 초안 흐름 연결 | Quote, Sourcing, 상태 전이, Contract | [블로그](https://min-soon.tistory.com/101) |
 
 프로젝트 진행에 따라 구현 내용과 설계 판단을 계속 추가하고 있습니다.
 
