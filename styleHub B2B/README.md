@@ -35,6 +35,7 @@
 | [2026-07-01](<daily/2026-07-01 견적서와 계약서 초안 흐름.md>) | 소싱 요청 기반 견적 생성과 계약서 초안 흐름 연결 | Quote, Sourcing, 상태 전이, Contract | [블로그](https://min-soon.tistory.com/101) |
 | [2026-07-02](<daily/2026-07-02 샘플 주문과 결제 멱등성.md>) | 견적 기반 샘플 주문·결제 연결과 재시도 멱등성 검토 | Sample Order, Toss Payments, 멱등성, UserReader | [블로그](https://min-soon.tistory.com/101) |
 | [2026-07-03](<daily/2026-07-03 견적 비교와 정보 노출 범위.md>) | 견적 비교 화면과 계약 전 공급사 정보 비노출 범위 정리 | Quote, 익명화, 상태 분리, 조회 성능 | [블로그](https://min-soon.tistory.com/105) |
+| [2026-07-04](<daily/2026-07-04 전자계약과 견적 열람 상태.md>) | 전자계약 작성·검토 화면과 견적 최초 열람 상태 연결 | Contract, iText, 전자서명, viewedAt | [블로그](https://min-soon.tistory.com/106) |
 
 프로젝트 진행에 따라 구현 내용과 설계 판단을 계속 추가하고 있습니다.
 
