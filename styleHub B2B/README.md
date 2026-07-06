@@ -14,29 +14,30 @@
 
 ## Development Log
 
-| 날짜                                                                | 작업                    | 키워드                                           | 관련 글                                    |
-|-------------------------------------------------------------------|-----------------------|-----------------------------------------------|-----------------------------------------|
-| [2026-06-12](<daily/2026-06-12 DB 설계.md>)                         | B2B 거래 흐름과 DB 구조 설계   | DB, 아키텍처, 스냅샷                                 | [블로그](https://min-soon.tistory.com/83)  |
-| [2026-06-15](<daily/2026-06-15 스케줄러 사전 학습.md>)                    | 주문 상태 자동화를 위한 스케줄러 검토 | Spring, Scheduled, 멱등성                        | [블로그](https://min-soon.tistory.com/84)  |
-| [2026-06-16](<daily/2026-06-16 계약서 PDF 검토.md>)                    | 계약서 PDF 생성과 무결성 검증 검토 | iText, PDF, SHA-256                           | [블로그](https://min-soon.tistory.com/85)  |
-| [2026-06-17](<daily/2026-06-17 JPA 지연 로딩.md>)                     | JPA 객체 연관관계와 지연 로딩 이해 | JPA, LAZY, 연관관계                               | [블로그](https://min-soon.tistory.com/86)  |
-| [2026-06-18](<daily/2026-06-18 장바구니 연동.md>)                       | 장바구니 API 연동           | DTO, Axios, 인증                                | [블로그](https://min-soon.tistory.com/87)  |
-| [2026-06-19](<daily/2026-06-19 장바구니와 Checkout.md>)                | 회사별 배송비 그룹화와 JPA N+1 문제 개선 | JPA, N+1, @EntityGraph, 배송비                   | [블로그](https://min-soon.tistory.com/88)  |
-| [2026-06-20](<daily/2026-06-20 Checkout 흐름 정리.md>)                |  장바구니와 Checkout의 검증 책임 설계                 | Spring, CartItem, Checkout, 검증 책임             | [블로그](https://min-soon.tistory.com/90)  |
-| [2026-06-21](<daily/2026-06-21 주문 주체와 로컬 DB.md>)                  | B2B 주문 판매 주체 재설계와 로컬 DB 분리 | JPA, Company, Docker, MySQL                   | [블로그](https://min-soon.tistory.com/91)  |
-| [2026-06-22](<daily/2026-06-22 Hibernate 스키마 동기화.md>)             | 주문 생성 연동과 Hibernate 스키마 동기화 오류 해결 | Hibernate, ddl-auto, 외래키, MySQL               | [블로그](https://min-soon.tistory.com/92)  |
-| [2026-06-23](<daily/2026-06-23 ApiResponse 응답 구조.md>)             | ApiResponse 적용 후 응답 처리 흐름 정리 | ApiResponse, Axios, Routing, 배송비              | [블로그](https://min-soon.tistory.com/93)  |
-| [2026-06-24](<daily/2026-06-24 Checkout DTO 분리.md>)               | 장바구니 기반 Checkout과 주문 기반 Checkout 분리 | Checkout, DTO, CartItem, Order                | [블로그](https://min-soon.tistory.com/94)  |
-| [2026-06-26](<daily/2026-06-26 Checkout 검증 응답 구조.md>)             | Checkout 검증 실패 응답 구조와 Cart 사전 안내 책임 정리 | Checkout, Validation, DTO, UX                 | [블로그](https://min-soon.tistory.com/96)  |
-| [2026-06-27](<daily/2026-06-27 주문 목록과 다건 결제.md>)                  | 주문 목록 요약 조회와 판매사별 주문의 다건 결제 흐름 설계 | Order, OrderItem, 다건 결제, 조회 최적화               | [블로그](https://min-soon.tistory.com/99)  |
-| [2026-06-28](<daily/2026-06-28 주문 목록 상태 분리.md>)                   | 주문 목록의 로딩·오류·빈 데이터 상태 분리 | React, Empty State, Error Handling, Mock Data | [블로그](https://min-soon.tistory.com/97)  |
-| [2026-06-29](<daily/2026-06-29 주문 상태 이력과 진행 현황.md>)               | 주문 상태 변경 이력 저장과 전체 진행 타임라인 연결 | OrderLog, 상태 이력, DTO, Timeline                | [블로그](https://min-soon.tistory.com/98)  |
-| [2026-06-30](<daily/2026-06-30 주문 상품 준비와 출고 처리.md>)               | 담당자별 주문 상품 준비와 주문 전체 출고 흐름 연결 | OrderItem, 권한 분리, 상태 전이, Shipment             | [블로그](https://min-soon.tistory.com/100) |
-| [2026-07-01](<daily/2026-07-01 견적서와 계약서 초안 흐름.md>)                | 소싱 요청 기반 견적 생성과 계약서 초안 흐름 연결 | Quote, Sourcing, 상태 전이, Contract              | [블로그](https://min-soon.tistory.com/101) |
-| [2026-07-02](<daily/2026-07-02 샘플 주문과 결제 멱등성.md>)                 | 견적 기반 샘플 주문·결제 연결과 재시도 멱등성 검토 | Sample Order, Toss Payments, 멱등성, UserReader  | [블로그](https://min-soon.tistory.com/101) |
-| [2026-07-03](<daily/2026-07-03 견적 비교와 정보 노출 범위.md>)               | 견적 비교 화면과 계약 전 공급사 정보 비노출 범위 정리 | Quote, 익명화, 상태 분리, 조회 성능                      | [블로그](https://min-soon.tistory.com/105) |
-| [2026-07-04](<daily/2026-07-04 전자계약과 견적 열람 상태.md>)                | 전자계약 작성·검토 화면과 견적 최초 열람 상태 연결 | Contract, iText, 전자서명, viewedAt               | [블로그](https://min-soon.tistory.com/106) |
-| [2026-07-05](<daily/2026-07-05 2026-07-05 협의 기능과 주문 관리 화면 개선.md>) | 2026-07-05 협의 기능과 주문 관리 화면 개선 | Redis, React, 권한, UX 최적화                      | [블로그](https://min-soon.tistory.com/107) |
+| 날짜                                                                  | 작업                                     | 키워드                                           | 관련 글                                    |
+|---------------------------------------------------------------------|----------------------------------------|-----------------------------------------------|-----------------------------------------|
+| [2026-06-12](<daily/2026-06-12 DB 설계.md>)                           | B2B 거래 흐름과 DB 구조 설계                    | DB, 아키텍처, 스냅샷                                 | [블로그](https://min-soon.tistory.com/83)  |
+| [2026-06-15](<daily/2026-06-15 스케줄러 사전 학습.md>)                      | 주문 상태 자동화를 위한 스케줄러 검토                  | Spring, Scheduled, 멱등성                        | [블로그](https://min-soon.tistory.com/84)  |
+| [2026-06-16](<daily/2026-06-16 계약서 PDF 검토.md>)                      | 계약서 PDF 생성과 무결성 검증 검토                  | iText, PDF, SHA-256                           | [블로그](https://min-soon.tistory.com/85)  |
+| [2026-06-17](<daily/2026-06-17 JPA 지연 로딩.md>)                       | JPA 객체 연관관계와 지연 로딩 이해                  | JPA, LAZY, 연관관계                               | [블로그](https://min-soon.tistory.com/86)  |
+| [2026-06-18](<daily/2026-06-18 장바구니 연동.md>)                         | 장바구니 API 연동                            | DTO, Axios, 인증                                | [블로그](https://min-soon.tistory.com/87)  |
+| [2026-06-19](<daily/2026-06-19 장바구니와 Checkout.md>)                  | 회사별 배송비 그룹화와 JPA N+1 문제 개선             | JPA, N+1, @EntityGraph, 배송비                   | [블로그](https://min-soon.tistory.com/88)  |
+| [2026-06-20](<daily/2026-06-20 Checkout 흐름 정리.md>)                  | 장바구니와 Checkout의 검증 책임 설계               | Spring, CartItem, Checkout, 검증 책임             | [블로그](https://min-soon.tistory.com/90)  |
+| [2026-06-21](<daily/2026-06-21 주문 주체와 로컬 DB.md>)                    | B2B 주문 판매 주체 재설계와 로컬 DB 분리             | JPA, Company, Docker, MySQL                   | [블로그](https://min-soon.tistory.com/91)  |
+| [2026-06-22](<daily/2026-06-22 Hibernate 스키마 동기화.md>)               | 주문 생성 연동과 Hibernate 스키마 동기화 오류 해결      | Hibernate, ddl-auto, 외래키, MySQL               | [블로그](https://min-soon.tistory.com/92)  |
+| [2026-06-23](<daily/2026-06-23 ApiResponse 응답 구조.md>)               | ApiResponse 적용 후 응답 처리 흐름 정리           | ApiResponse, Axios, Routing, 배송비              | [블로그](https://min-soon.tistory.com/93)  |
+| [2026-06-24](<daily/2026-06-24 Checkout DTO 분리.md>)                 | 장바구니 기반 Checkout과 주문 기반 Checkout 분리    | Checkout, DTO, CartItem, Order                | [블로그](https://min-soon.tistory.com/94)  |
+| [2026-06-26](<daily/2026-06-26 Checkout 검증 응답 구조.md>)               | Checkout 검증 실패 응답 구조와 Cart 사전 안내 책임 정리 | Checkout, Validation, DTO, UX                 | [블로그](https://min-soon.tistory.com/96)  |
+| [2026-06-27](<daily/2026-06-27 주문 목록과 다건 결제.md>)                    | 주문 목록 요약 조회와 판매사별 주문의 다건 결제 흐름 설계      | Order, OrderItem, 다건 결제, 조회 최적화               | [블로그](https://min-soon.tistory.com/99)  |
+| [2026-06-28](<daily/2026-06-28 주문 목록 상태 분리.md>)                     | 주문 목록의 로딩·오류·빈 데이터 상태 분리               | React, Empty State, Error Handling, Mock Data | [블로그](https://min-soon.tistory.com/97)  |
+| [2026-06-29](<daily/2026-06-29 주문 상태 이력과 진행 현황.md>)                 | 주문 상태 변경 이력 저장과 전체 진행 타임라인 연결          | OrderLog, 상태 이력, DTO, Timeline                | [블로그](https://min-soon.tistory.com/98)  |
+| [2026-06-30](<daily/2026-06-30 주문 상품 준비와 출고 처리.md>)                 | 담당자별 주문 상품 준비와 주문 전체 출고 흐름 연결          | OrderItem, 권한 분리, 상태 전이, Shipment             | [블로그](https://min-soon.tistory.com/100) |
+| [2026-07-01](<daily/2026-07-01 견적서와 계약서 초안 흐름.md>)                  | 소싱 요청 기반 견적 생성과 계약서 초안 흐름 연결           | Quote, Sourcing, 상태 전이, Contract              | [블로그](https://min-soon.tistory.com/101) |
+| [2026-07-02](<daily/2026-07-02 샘플 주문과 결제 멱등성.md>)                   | 견적 기반 샘플 주문·결제 연결과 재시도 멱등성 검토          | Sample Order, Toss Payments, 멱등성, UserReader  | [블로그](https://min-soon.tistory.com/101) |
+| [2026-07-03](<daily/2026-07-03 견적 비교와 정보 노출 범위.md>)                 | 견적 비교 화면과 계약 전 공급사 정보 비노출 범위 정리        | Quote, 익명화, 상태 분리, 조회 성능                      | [블로그](https://min-soon.tistory.com/105) |
+| [2026-07-04](<daily/2026-07-04 전자계약과 견적 열람 상태.md>)                  | 전자계약 작성·검토 화면과 견적 최초 열람 상태 연결          | Contract, iText, 전자서명, viewedAt               | [블로그](https://min-soon.tistory.com/106) |
+| [2026-07-05](<daily/2026-07-05 2026-07-05 협의 기능과 주문 관리 화면 개선.md>)   | 2026-07-05 협의 기능과 주문 관리 화면 개선          | Redis, React, 권한, UX 최적화                      | [블로그](https://min-soon.tistory.com/107) |
+| [2026-07-06](<daily/2026-07-06 2026-07-06 이의제기 기능과 REST API 설계.md>) | 2026-07-06 이의제기 기능과 REST API 설계                                   | REST API, Dispute, React Router, 권한 분리                      | [블로그](https://min-soon.tistory.com/108) |
 
 프로젝트 진행에 따라 구현 내용과 설계 판단을 계속 추가하고 있습니다.
 
