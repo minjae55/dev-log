@@ -36,8 +36,9 @@
 | [2026-07-02](<daily/2026-07-02 샘플 주문과 결제 멱등성.md>)                   | 견적 기반 샘플 주문·결제 연결과 재시도 멱등성 검토          | Sample Order, Toss Payments, 멱등성, UserReader  | [블로그](https://min-soon.tistory.com/101) |
 | [2026-07-03](<daily/2026-07-03 견적 비교와 정보 노출 범위.md>)                 | 견적 비교 화면과 계약 전 공급사 정보 비노출 범위 정리        | Quote, 익명화, 상태 분리, 조회 성능                      | [블로그](https://min-soon.tistory.com/105) |
 | [2026-07-04](<daily/2026-07-04 전자계약과 견적 열람 상태.md>)                  | 전자계약 작성·검토 화면과 견적 최초 열람 상태 연결          | Contract, iText, 전자서명, viewedAt               | [블로그](https://min-soon.tistory.com/106) |
-| [2026-07-05](<daily/2026-07-05 2026-07-05 협의 기능과 주문 관리 화면 개선.md>)   | 2026-07-05 협의 기능과 주문 관리 화면 개선          | Redis, React, 권한, UX 최적화                      | [블로그](https://min-soon.tistory.com/107) |
-| [2026-07-06](<daily/2026-07-06 2026-07-06 이의제기 기능과 REST API 설계.md>) | 2026-07-06 이의제기 기능과 REST API 설계                                   | REST API, Dispute, React Router, 권한 분리                      | [블로그](https://min-soon.tistory.com/108) |
+| [2026-07-05](<daily/2026-07-05 협의 기능과 주문 관리 화면 개선.md>)   | 협의 기능과 주문 관리 화면 개선          | Redis, React, 권한, UX 최적화                      | [블로그](https://min-soon.tistory.com/107) |
+| [2026-07-06](<daily/2026-07-06 이의제기 기능과 REST API 설계.md>) | 이의제기 기능과 REST API 설계                                   | REST API, Dispute, React Router, 권한 분리                      | [블로그](https://min-soon.tistory.com/108) |
+| [2026-07-07](<daily/2026-07-07 협의 스레드 중복 생성 문제와 견적 재협상 흐름 정리.md>) | 협의 스레드 중복 생성 버그 수정과 견적 재협상 흐름 정리 | Negotiation, Quote, 버전 관리, 상태 전이 | [블로그](https://min-soon.tistory.com/109) |
 
 프로젝트 진행에 따라 구현 내용과 설계 판단을 계속 추가하고 있습니다.
 
