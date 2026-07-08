@@ -39,6 +39,7 @@
 | [2026-07-05](<daily/2026-07-05 협의 기능과 주문 관리 화면 개선.md>)   | 협의 기능과 주문 관리 화면 개선          | Redis, React, 권한, UX 최적화                      | [블로그](https://min-soon.tistory.com/107) |
 | [2026-07-06](<daily/2026-07-06 이의제기 기능과 REST API 설계.md>) | 이의제기 기능과 REST API 설계                                   | REST API, Dispute, React Router, 권한 분리                      | [블로그](https://min-soon.tistory.com/108) |
 | [2026-07-07](<daily/2026-07-07 협의 스레드 중복 생성 문제와 견적 재협상 흐름 정리.md>) | 협의 스레드 중복 생성 버그 수정과 견적 재협상 흐름 정리 | Negotiation, Quote, 버전 관리, 상태 전이 | [블로그](https://min-soon.tistory.com/109) |
+| [2026-07-08](<daily/2026-07-08 견적 결제 상태 버그 수정과 전체 흐름 정리.md>) | 견적 결제완료 상태 버그 수정과 소싱~결제 전체 흐름 총정리 | Order, Quote, null 처리, Architecture | [블로그](https://min-soon.tistory.com/PLACEHOLDER) |
 
 프로젝트 진행에 따라 구현 내용과 설계 판단을 계속 추가하고 있습니다.
 
